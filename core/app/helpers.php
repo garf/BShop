@@ -23,9 +23,16 @@ if (!function_exists('pub_id')) {
     }
 }
 
-if (!function_exists('dnd')) {
-    function dnd($str)
+if (!function_exists('sm')) {
+    function sm($type='info', $message='', $group='0')
     {
-        (new Dumper)->dump($str);
+        \App\Models\Messages::inst()->setMessage($type, $message, $group);
+    }
+}
+
+if (!function_exists('get_messages')) {
+    function get_messages($group='0')
+    {
+        return \App\Models\Messages::inst()->systemMessagesFormatted($group);
     }
 }

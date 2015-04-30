@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'YOzaz\\LaravelSwiftmailer\\' => array($vendorDir . '/yozaz/laravel-swiftmailer/src'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
@@ -32,5 +33,6 @@ return array(
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
     'Diff' => array($vendorDir . '/phpspec/php-diff/lib'),
     'Cron' => array($vendorDir . '/mtdowling/cron-expression/src'),
+    'Chumper\\Zipper' => array($vendorDir . '/chumper/zipper/src'),
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
 );

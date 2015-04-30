@@ -12,6 +12,7 @@
         "Illuminate\\Filesystem\\FilesystemServiceProvider",
         "Illuminate\\Foundation\\Providers\\FoundationServiceProvider",
         "Illuminate\\Hashing\\HashServiceProvider",
+        "Illuminate\\Html\\HtmlServiceProvider",
         "Illuminate\\Mail\\MailServiceProvider",
         "Illuminate\\Pagination\\PaginationServiceProvider",
         "Illuminate\\Pipeline\\PipelineServiceProvider",
@@ -27,7 +28,12 @@
         "App\\Providers\\ConfigServiceProvider",
         "App\\Providers\\EventServiceProvider",
         "App\\Providers\\RouteServiceProvider",
-        "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+        "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider",
+        "Jenssegers\\Date\\DateServiceProvider",
+        "Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider",
+        "Chumper\\Zipper\\ZipperServiceProvider",
+        "YOzaz\\LaravelSwiftmailer\\ServiceProvider",
+        "Intervention\\Image\\ImageServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -45,7 +51,12 @@
         "App\\Providers\\BusServiceProvider",
         "App\\Providers\\ConfigServiceProvider",
         "App\\Providers\\EventServiceProvider",
-        "App\\Providers\\RouteServiceProvider"
+        "App\\Providers\\RouteServiceProvider",
+        "Jenssegers\\Date\\DateServiceProvider",
+        "Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider",
+        "Chumper\\Zipper\\ZipperServiceProvider",
+        "YOzaz\\LaravelSwiftmailer\\ServiceProvider",
+        "Intervention\\Image\\ImageServiceProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",
@@ -106,6 +117,8 @@
         "command.middleware.make": "Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider",
         "command.session.database": "Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider",
         "hash": "Illuminate\\Hashing\\HashServiceProvider",
+        "html": "Illuminate\\Html\\HtmlServiceProvider",
+        "form": "Illuminate\\Html\\HtmlServiceProvider",
         "mailer": "Illuminate\\Mail\\MailServiceProvider",
         "swift.mailer": "Illuminate\\Mail\\MailServiceProvider",
         "swift.transport": "Illuminate\\Mail\\MailServiceProvider",
@@ -141,6 +154,9 @@
 
         ],
         "Illuminate\\Hashing\\HashServiceProvider": [
+
+        ],
+        "Illuminate\\Html\\HtmlServiceProvider": [
 
         ],
         "Illuminate\\Mail\\MailServiceProvider": [

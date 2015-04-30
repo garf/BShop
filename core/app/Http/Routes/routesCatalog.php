@@ -1,9 +1,23 @@
 <?php
-Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+Route::get('/', array(
+    'as' => 'index',
+    'uses' => 'CatalogController@index',
+));
 
-Route::controllers([
-'auth' => 'Auth\AuthController',
-'password' => 'Auth\PasswordController',
-]);
+//-------AUTH---------
+Route::get('/login', array(
+    'as' => 'login',
+    'uses' => 'AuthController@login',
+));
+
+Route::post('/login', array(
+    'as' => 'login-post',
+    'uses' => 'AuthController@loginPost',
+));
+
+Route::get('/logout', array(
+    'as' => 'logout',
+    'uses' => 'AuthController@logout',
+));
+//-------/AUTH---------

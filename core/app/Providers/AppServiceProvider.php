@@ -25,10 +25,15 @@ class AppServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
+        $this->app->singleton('App\Classes\Title', function () {
+            return new App\Classes\Title(config('app.sitename'));
+        });
+        $this->app->bind('title', 'App\Classes\Title');
 		$this->app->bind(
 			'Illuminate\Contracts\Auth\Registrar',
 			'App\Services\Registrar'
 		);
+        require_once(app_path('helpers.php'));
 	}
 
 }

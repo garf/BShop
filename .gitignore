@@ -1,3 +1,6 @@
 /.idea
 /core/node_modules
+/files
+/images
 .env
+

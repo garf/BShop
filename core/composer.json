@@ -12,7 +12,10 @@
         "anhskohbo/no-captcha": "2.*",
         "Chumper/Zipper": "0.6.x",
         "yozaz/laravel-swiftmailer": "~3.0",
-        "intervention/image": "~2.1"
+        "intervention/image": "~2.1",
+        "xethron/migrations-generator": "dev-l5",
+        "way/generators": "dev-feature/laravel-five-stable",
+        "arrilot/laravel-widgets": "^2.3"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -47,5 +50,11 @@
     },
     "config": {
         "preferred-install": "dist"
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
+        }
+    ]
 }

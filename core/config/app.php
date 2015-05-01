@@ -160,6 +160,11 @@ return [
         'YOzaz\LaravelSwiftmailer\ServiceProvider',
         //http://image.intervention.io
         'Intervention\Image\ImageServiceProvider',
+        //https://github.com/Xethron/migrations-generator
+        'Way\Generators\GeneratorsServiceProvider',
+        'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
+        //https://github.com/Arrilot/laravel-widgets
+        'Arrilot\Widgets\ServiceProvider',
 
     ],
 
@@ -211,7 +216,9 @@ return [
         'Validator' => 'Illuminate\Support\Facades\Validator',
         'View'      => 'Illuminate\Support\Facades\View',
 
-        'Image' => 'Intervention\Image\Facades\Image',
+        'Image'        => 'Intervention\Image\Facades\Image',
+        'Widget'       => 'Arrilot\Widgets\Facade',
+        'AsyncWidget'  => 'Arrilot\Widgets\AsyncFacade',
 
     ],
 

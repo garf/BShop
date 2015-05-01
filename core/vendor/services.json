@@ -33,7 +33,10 @@
         "Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider",
         "Chumper\\Zipper\\ZipperServiceProvider",
         "YOzaz\\LaravelSwiftmailer\\ServiceProvider",
-        "Intervention\\Image\\ImageServiceProvider"
+        "Intervention\\Image\\ImageServiceProvider",
+        "Way\\Generators\\GeneratorsServiceProvider",
+        "Xethron\\MigrationsGenerator\\MigrationsGeneratorServiceProvider",
+        "Arrilot\\Widgets\\ServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -56,7 +59,10 @@
         "Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider",
         "Chumper\\Zipper\\ZipperServiceProvider",
         "YOzaz\\LaravelSwiftmailer\\ServiceProvider",
-        "Intervention\\Image\\ImageServiceProvider"
+        "Intervention\\Image\\ImageServiceProvider",
+        "Way\\Generators\\GeneratorsServiceProvider",
+        "Xethron\\MigrationsGenerator\\MigrationsGeneratorServiceProvider",
+        "Arrilot\\Widgets\\ServiceProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",

@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         @yield('meta-tags')
+        <link rel="shortcut icon" href="/favicon.png" type="image/png">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ app('title') }}</title>
@@ -40,16 +41,16 @@
             @yield('main-menu')
             <div class="row">
                 <aside>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         @yield('left-sidebar')
                     </div>
                 </aside>
 
-                <div class="col-md-8">
+                <div class="col-md-6">
                     @yield('body')
                 </div>
                 <aside>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         @yield('right-sidebar')
                     </div>
                 </aside>

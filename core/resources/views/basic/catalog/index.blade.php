@@ -5,7 +5,7 @@
 @stop
 
 @section('left-sidebar')
-    <h4>Left sidebar</h4>
+    @widget('CategoriesList')
 @stop
 
 @section('right-sidebar')

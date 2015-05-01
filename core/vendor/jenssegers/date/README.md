@@ -52,9 +52,11 @@ This package contains language files for the following languages:
  - Italian
  - Japanese
  - Korean
+ - Malay
  - Norwegian
  - Polish
  - Portuguese
+ - Persian (Farsi)
  - Romanian
  - Russian
  - Thai
@@ -238,3 +240,7 @@ php generator.php nl_NL
 ```
 
 **NOTE!** If you are adding languages, please check the rules about the capitalization of month and day names: http://meta.wikimedia.org/wiki/Capitalization_of_Wiktionary_pages#Capitalization_of_month_names
+
+## License
+
+Laravel Date is licensed under [The MIT License (MIT)](LICENSE).
